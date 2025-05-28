@@ -34,12 +34,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
+          cache: 'npm'
       - name: Install dependencies
-        run: npm install # npm ci
-        working-directory: ${{ github.workspace }}
+        run: npm ci
       - name: Build
         run: npm run build
-        working-directory: ${{ github.workspace }}
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
