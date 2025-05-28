@@ -36,10 +36,10 @@ jobs:
           node-version: lts/*
       - name: Install dependencies
         run: npm install # npm ci
-        working-directory: ${{ github.workspace }
+        working-directory: ${{ github.workspace }}
       - name: Build
         run: npm run build
-        working-directory: ${{ github.workspace }
+        working-directory: ${{ github.workspace }}
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
