@@ -15,7 +15,7 @@ import {
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Search } from "../Search/Search";
 import { SettingsMenu } from "../Settings/SettingsMenu";
-import { Account } from "../AccountCreation/account";
+import { Account } from "../AccountCreation/Account";
 
 export const Header = (): JSX.Element => {
   // account status
