@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "source": "./index.html",
+  "homepage": "https://ivan-rigney.github.io/myABV-Deployment/",
   "type": "module",
   "name": "anima-project",
   "description": "A React project for tracking beers and breweries",
