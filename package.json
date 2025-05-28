@@ -1,6 +1,5 @@
 {
   "version": "1.0.0",
-  "homepage": "https://ivan-rigney.github.io/myABV-Deployment/",
   "source": "./index.html",
   "type": "module",
   "name": "anima-project",
