@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v4
 
       - name: List root files
-        run: dir -R ..
+        run: dir -R ../..
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
